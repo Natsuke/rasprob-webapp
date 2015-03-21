@@ -1,0 +1,16 @@
+{
+  "name": "raspberry-robot-web-app",
+  "version": "0.0.0",
+  "authors": [
+    "Andy Vanbutsele <andy.vanbutsele@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
