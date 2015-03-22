@@ -1,0 +1,53 @@
+@import
+  "../bower_components/ionic/scss/ionic.scss";
+@import
+  "../bower_components/ionicons/css/ionicons.css";
+@import
+  "../bower_components/videojs/dist/video-js/video-js.css";
+
+* {
+  font: 100% Arial,'sans-serif';
+}
+
+.menu {
+  background-color: #333;
+  color: #BBB;
+}
+
+.button-center-container {
+  text-align: center;
+}
+
+.item {
+  background-color: #333;
+  color: #BBB;
+}
+
+.item a {
+  color: #BBB;
+}
+
+.card .item-text-wrap h2 {
+  color: white;
+}
+
+.card .item-text-wrap p {
+  color: white;
+}
+
+.item h2 {
+  color: #BBB;
+}
+
+.item p {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
