@@ -2,7 +2,7 @@ path = require 'path'
 
 module.exports =
   www:
-    port: 8000
+    port: 8080
   paths:
     base: path.join(__dirname, '..')
     app: 'app'

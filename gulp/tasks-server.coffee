@@ -73,8 +73,6 @@ serverStart = (options, done) ->
     return done err if err
 
     server = connect()
-      .use('/api', res.servermode.frontend)
-      .use('/backend', res.servermode.backend)
       .use(logger())
       .use(livereload(
         port: res.port
@@ -88,7 +86,6 @@ serverStart = (options, done) ->
     options.staticDirs.forEach (p) ->
       server.use serveStatic(p)
 
-    server.__api__ = res.servermode.api
     gutil.log 'Server listening to', gutil.colors.red('http://localhost:' + res.webport)
 
     httpServer = server.listen(res.webport, done)

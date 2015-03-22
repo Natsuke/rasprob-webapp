@@ -35,4 +35,4 @@ module.exports = (mode, done) ->
   if mode == 'proxy'
     proxifyWeborder done
   else
-    middlifyWeborder done
+    done()
