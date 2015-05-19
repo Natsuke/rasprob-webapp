@@ -72,6 +72,7 @@
     "angular-cached-resource": "^1.0.3",
     "angular-translate": "^2.6.1",
     "lodash": "^2.4.1",
+    "send": "^0.12.2",
     "url-join": "0.0.1"
   }
 }

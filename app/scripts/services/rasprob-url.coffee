@@ -1,7 +1,7 @@
 
 ### @ngInject ###
 module.exports = ($ionicPopup) ->
-  pi = "http://192.168.0.14:8080"
+  pi = "http://127.0.0.1:8081"
 
   @get = ->
     pi
