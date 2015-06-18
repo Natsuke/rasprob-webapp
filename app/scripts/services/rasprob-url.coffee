@@ -1,7 +1,7 @@
 
 ### @ngInject ###
 module.exports = ($ionicPopup) ->
-  pi = "http://127.0.0.1:8081"
+  pi = localStorage?.getItem('pi-url') || ""
 
   @get = ->
     return pi
@@ -12,8 +12,9 @@ module.exports = ($ionicPopup) ->
       subTitle: 'Change your RaspRob url'
       inputType: 'url'
       inputPlaceholder: "#{pi}"
-    ).then (res)->
-      if res
-        pi = res
+    ).then (url)->
+      if url
+        pi = url
+        localStorage.setItem('pi-url', url)
 
   return @
