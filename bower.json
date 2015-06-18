@@ -21,9 +21,6 @@
     "angular-moment": "~0.8.1",
     "moment": "~2.8.3",
     "angular-cookies": "~1.3.15",
-    "ionicons": "~2.0.1",
-    "videojs": "~4.12.5",
-    "ngvideo": "~0.4.13",
-    "videogular": "~1.1.1"
+    "ionicons": "~2.0.1"
   }
 }

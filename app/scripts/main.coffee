@@ -9,7 +9,6 @@ window.moment = require('moment')
 require('angular-moment')
 require('ionic')
 require('ionic/release/js/ionic-angular')
-require('videojs')
 
 app = angular.module 'web-app', [
   'ionic',
