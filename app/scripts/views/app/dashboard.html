@@ -1,18 +1,16 @@
 <ion-view view-title="Dashboard">
   <ion-content>
-    <video class="video-js vjs-default-skin"
-               controls
-               width="100%"
-               type="video/mp4" data-setup={}>
-      <source ng-src="{{ file }}" type="video/mp4">
-    </video>
+    <center>
+    <pre>
+      <img width="95%" height="70%" src="{{ stream }}" alt="Video" />
+    </pre>
+    </center>
 
-    </br>
-    <div class="button-center-container">
-      <button class="button button-balanced">
-        Prendre le contrôle
-      </button>
-    </div>
+  <div class="button-center-container">
+    <button class="button button-balanced" ng-click="toggle()">
+      {{ buttonText }}
+    </button>
+  </div>
 
   </ion-content>
 </ion-view>
